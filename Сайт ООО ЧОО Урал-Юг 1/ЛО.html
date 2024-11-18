@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ЛО.css">
+    <title>Личная охрана</title>
+</head>
+<body>
+<header>
+
+    <ul class="menu cf">
+        <li><a onClick="location.href='main.html'">Главная</a></li>
+        <li><a onClick="location.href='Услуги.html'">Услуги</a></li>
+        <li><a onClick="location.href='ОО.html'">Объект охраны</a></li>
+        <li>
+            <a>Организация</a>
+            <ul class="submenu">
+                <li><a onClick="location.href='Оорганизации.html'">О организации</a></li>
+                <li><a onClick="location.href='Закупки.html'">Закупки</a></li>
+                <li><a onClick="location.href='Вакансии.html'">Вакансии</a></li>
+                <li><a onClick="location.href='Отзывы.html'">Отзывы</a></li>
+                <li><a onClick="location.href='Лицензии.html'">Лицензии</a></li>
+                <li><a onClick="location.href='Портфолио.html'">Портфолио</a></li>
+            </ul>
+        </li>
+        <li><a onClick="location.href='Новости.html'">Новости</a></li>
+        <li><a>Клиентам</a>
+            <ul class="submenu">
+                <li><a onClick="location.href='Вопрос-ответ.html'">Вопрос-ответ</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfrD2wKVuprxZ4VLXfreiswO_NRMfK5u1JIUvHan_55f7CEvw/viewform?usp=sf_link">Анкетирование</a></li>
+            </ul></li>
+        <li><a onClick="location.href='Контакты.html'">Контакты</a></li>
+    </ul>
+
+    <div class="hero" style="background-image: url(/фон2.jpg);
+    height: 450px; background-position: 0%; background-repeat: no-repeat;
+    background-size: cover;"> </div>
+</header>
+
+<main>
+    <div class="okom">
+        <div id="home" class="first_page">
+            <div class="wrapper">
+                <div class="hea header_home">Личная охрана</div>
+                <div class="content content_home">Одно из направлений деятельности частной охранной организации
+                    «Урал-Юг 1» - оказание услуг личной охраны. Нашими клиентами являются физические и
+                    юридические лица: политики, чиновники, общественные деятели, крупные и
+                    мелкие бизнесмены, артисты и обычные люди. Личная охрана нужна тем, кто беспокоится за
+                    свою жизнь, здоровье и имущество</div>
+                <div class="image"></div>
+            </div>
+        </div>
+    </div>
+    <div class="us">
+    <h1>Услуга личной охраны</h1>
+    <p class="p1">Главная задача частной охраны – максимально защитить клиента.
+        В обязанности сотрудников личной охраны входят:</p>
+
+        <ol class="square">
+            <li>Сопровождение клиента в течение периода, указанного в договоре</li>
+            <li>Проверка путей следования клиента и смена маршрута при подозрении на преследование</li>
+            <li>Наблюдение за изменением обстановки</li>
+            <li>Предупреждение опасности. Охранники досматривают людей, имеющих доступ к клиенту, и блокируют неожиданно приблизившихся лиц</li>
+            <li>Постоянная или временная защита детей с учетом психологии маленького ребенка</li>
+            <li>Идентификация точек, подходящих для совершения покушения на клиента (лифт, плохо освещенный подъезд, лестничные пролеты, спуск в подвал)</li>
+            <li>Устранение угроз (устранение конфликтов, физическое противодействие нападающим, обезвреживание взрывных устройств</li>
+            <li>Определение фактов несанкционированного наружного наблюдения за клиентом, его домом, офисом</li>
+        </ol>
+
+        <p class="p1">Клиент может заказать личную охрану на один раз.
+            Например, телохранителей можно нанять для встречи гостей.
+            При необходимости личной охраной пользуются на постоянной основе.</p>
+    </div>
+
+    <div class="fi">
+        <form class="g-form" id="g-form-1" method="POST" action="" autocomplete="off">
+            <h2 class="g-form__title g-form__title_main">Оставьте заявку прямо сейчас</h2>
+            <h2 class="g-form__title g-form__title_respond"></h2>
+            <div class="g-form__preloader"></div>
+            <div class="g-form__inputs">
+                <fieldset class="g-form__input-wrapper">
+                    <input class="g-form__input g-form__input_name" id="name" name="Имя" placeholder="Введите ваше имя" required>
+                </fieldset>
+
+                <fieldset class="g-form__input-wrapper">
+                    <input class="g-form__input g-form__input_tel" id="tel" name="Телефон" placeholder="Введите ваш телефон">
+                </fieldset>
+
+                <fieldset class="g-form__input-wrapper">
+                    <input id="email" name="Email" type="email" value=""
+                           required placeholder="Введите ваш email"/>
+                </fieldset>
+
+                <fieldset class="g-form__input-wrapper">
+                    <input id="arbitrary-field" name="Город" placeholder="Введите ваш город">
+                </fieldset>
+
+                <fieldset class="g-form__input-wrapper">
+				<textarea id="message" name="Сообщение" rows="30"
+                          placeholder="Введите сообщение"></textarea>
+                </fieldset>
+
+                <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+                    <label for="honeypot">Помогает бороться со спамом</label>
+                    <input id="honeypot" type="text" name="honeypot" value="">
+                </fieldset>
+
+                <div class="g-form__button-wrapper">
+                    <button class="g-form__button">Отправить данные</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="footer-bs">
+    <div class="row">
+        <div class="bblock1">
+            <h1>ЧОО "Урал-Юг 1"</h1>
+            <img src="Лого.png" height="150px">
+            <div class="in">Мы всегда готовы стоять на страже вашей безопасности.
+                Если есть вопросы или вы готовы работать с нами, то просто свяжитесь
+                с нами любым удобным для вас способом.</div>
+        </div>
+
+        <div class="bblock">
+            <h1>Организация</h1>
+            <ul class="list1">
+                <li class="arrow1" onClick="location.href='Оорганизации.html'">О организации</li>
+                <li class="arrow1" onClick="location.href='Закупки.html'">Закупки</li>
+                <li class="arrow1" onClick="location.href='Вакансии.html'">Вакансии</li>
+                <li class="arrow1" onClick="location.href='Отзывы.html'">Отзывы</li>
+                <li class="arrow1" onClick="location.href='Лицензии.html'">Лицензии</li>
+                <li class="arrow1" onClick="location.href='Портфолио.html'">Портфолио</li>
+            </ul>
+            <div class="in1">Общество с ограниченной ответственностью "ЧОО "Урал-Юг 1" образовано 10.10.2012 годa, для вида деятельности
+                - деятельность охранных служб, в том числе частных. Организация работает 10 лет на данном рынке.
+                Руководителем является: Жуков Олег Александрович.</div>
+        </div>
+
+        <div class="bblock">
+            <h1>Услуги организации</h1>
+            <ul class="list">
+                <li class="arrow" onClick="location.href='ЛО.html'">Личная охрана</li>
+                <li class="arrow" onClick="location.href='ПО.html'">Пультовая охрана</li>
+                <li class="arrow" onClick="location.href='ФО.html'">Физическая охрана</li>
+                <li class="arrow" onClick="location.href='АБ.html'">Аудит безопасности</li>
+                <li class="arrow" onClick="location.href='УВ.html'">Установка видеонаблюдения</li>
+            </ul>
+            <h1>Объекты охраны</h1>
+            <ul class="list">
+                <li class="arrow" onClick="location.href='ОПО.html'">Охрана промышленных объектов</li>
+                <li class="arrow" onClick="location.href='ОКИК.html'">Охрана квартир и коттеджей </li>
+                <li class="arrow" onClick="location.href='ОТК.html'">Охрана ТК, ТРК и БД </li>
+                <li class="arrow" onClick="location.href='ОСО.html'">Охрана строительных объектов </li>
+                <li class="arrow" onClick="location.href='ОМСУ.html'">Охрана магазинов, салонов услуг, ресторанов и кафе </li>
+                <li class="arrow" onClick="location.href='ОММ.html'">Охрана массовых мероприятий </li>
+            </ul>
+        </div>
+
+        <div class="bblock">
+            <h1>Контакты</h1>
+            <div class="nesolestag-enadenud">
+
+                <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i>
+                </div>
+                <div class="meanous-andscoev1">
+                    <h4 class="aio-icon-title">Юридический адрес:</h4>
+                    <div class="aio-icon-description">
+                        456304, Челябинская обл., г. Миасс, пр-т Автозаводцев, д. 1</div>
+                </div>
+
+                <span class="kesednsoled"></span>
+
+                <div class="ico-wrap"> <i class="fa fa-clock-o ico-contact"></i>
+                </div>
+                <div class="meanous-andscoev">
+                    <h4 class="aio-icon-title">График работы:</h4>
+                    <div class="aio-icon-description">
+                        пн-пт: 08:00-19:00 (обед 13:00-14:00), сб-вс: 10:00-17:00 (обед 13:00-14:00)
+                    </div>
+
+                    <span class="kesednsoled"></span>
+
+                    <div class="ico-wrap">
+                        <i class="fa fa-envelope ico-contact"></i>
+                    </div>
+                    <div class="meanous-andscoev">
+                        <h4 class="aio-icon-title">Электронная почта:</h4>
+                        <div class="aio-icon-description">
+                            ZhukovOA@gaz.ru.
+                            <br>grishinamo@uralaz.ru</div>
+                    </div>
+
+                    <span class="kesednsoled"></span>
+
+                    <div class="ico-wrap">
+                        <i class="fa fa-phone ico-contact"></i>
+                    </div>
+                    <div class="meanous-andscoev">
+                        <h4 class="aio-icon-title">Связь по телефону:</h4>
+                        <div class="aio-icon-description">
+                            +7 (3513) 294-12-89
+                            <br>+7 (3513) 55-11-71</div>
+                    </div>
+
+                    <span class="kesednsoled"></span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/g-form/g-form.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script>
+    $(function() {
+        $(".g-form__input_tel").mask('+7(000)000-00-00');
+    });
+</script>
+</html>
